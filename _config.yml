@@ -1,0 +1,13 @@
+# Site settings
+title: Bao Nguyen
+email: bao@λ.network
+
+description: >
+  Bao's personal website
+
+baseurl: ""
+url: "https://blog.λ.network"
+username: sysbot 
+
+# Build settings
+markdown: kramdown

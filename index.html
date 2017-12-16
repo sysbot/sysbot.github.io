@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  <table class="posts">
+    <tbody>
+      {% for post in site.posts %}
+      <tr>
+        <td>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{post.title}}
+          </a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
